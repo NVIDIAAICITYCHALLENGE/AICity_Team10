@@ -1,0 +1,7 @@
+classes= 15
+train  = /workspace/darknet/aic1080-darknet/train/train.txt
+valid  = /workspace/darknet/aic1080-darknet/test/test.txt
+names = data/voc.names
+backup = backup
+results = results
+eval=imagenet
