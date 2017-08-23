@@ -15,3 +15,6 @@ The line_count.py is used to count the lines in a file.
 The above 4 files are used specially in the challenge.
 
 These files are used for aic480. The codes for aic1080 and aic540 is similar to them.
+
+For training, the command is as "./darknet detector train cfg/voc.data cfg/yolo-voc.2.0.cfg darknet19_448.conv.23".
+For validating, the command is as "./darknet detector valid cfg/voc.data cfg/yolo-voc.2.0.cfg /workspace/darknet/backup/yolo-voc.backup".
