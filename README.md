@@ -19,3 +19,4 @@ These files are used for aic480. The codes for aic1080 and aic540 is similar to 
 For training, the command is as "./darknet detector train cfg/voc.data cfg/yolo-voc.2.0.cfg darknet19_448.conv.23".
 For validating and testing, the command is as "./darknet detector valid cfg/voc.data cfg/yolo-voc.2.0.cfg /workspace/darknet/backup/yolo-voc.backup".
 For testing, the command is as "./darknet detector recall cfg/voc.data cfg/yolo-voc.2.0.cfg /workspace/darknet/backup/yolo-voc.backup".
+Please download darknet19_448.conv.23 from  https://pjreddie.com/darknet/yolo/.
