@@ -20,3 +20,5 @@ For training, the command is as "./darknet detector train cfg/voc.data cfg/yolo-
 For validating and testing, the command is as "./darknet detector valid cfg/voc.data cfg/yolo-voc.2.0.cfg /workspace/darknet/backup/yolo-voc.backup".
 For testing, the command is as "./darknet detector recall cfg/voc.data cfg/yolo-voc.2.0.cfg /workspace/darknet/backup/yolo-voc.backup".
 Please download darknet19_448.conv.23 from  https://pjreddie.com/darknet/yolo/.
+The weight file can be download from https://pan.baidu.com/s/1hrBfgUS. The yolo-voc_final.weights is for the AIC480 and the yolo-voc_40000.weights is for AIC1080.
+
